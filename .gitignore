@@ -4,3 +4,31 @@ apm_modules/
 **/AGENTS.md
 AGENTS.md
 .apm
+
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
