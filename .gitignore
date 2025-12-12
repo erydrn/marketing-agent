@@ -4,3 +4,34 @@ apm_modules/
 **/AGENTS.md
 AGENTS.md
 .apm
+
+# .NET build artifacts
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+
+# Rider
+.idea/
+*.sln.iml
+
+#VS Code
+.vscode/
