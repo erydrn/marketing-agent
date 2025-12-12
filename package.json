@@ -1,0 +1,40 @@
+{
+  "name": "marketing-agent",
+  "version": "0.1.0",
+  "description": "Digital Marketing Agent - Intelligent automation system for lead generation and engagement",
+  "private": true,
+  "keywords": [
+    "marketing",
+    "automation",
+    "lead-generation",
+    "ai-agent"
+  ],
+  "author": "Marketing Agent Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erydrn/marketing-agent.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "echo 'Development server script to be added'",
+    "build": "echo 'Build script to be added'",
+    "start": "echo 'Start script to be added'",
+    "test": "echo 'Test script to be added'",
+    "test:unit": "echo 'Unit test script to be added'",
+    "test:integration": "echo 'Integration test script to be added'",
+    "test:e2e": "echo 'E2E test script to be added'",
+    "test:coverage": "echo 'Coverage script to be added'",
+    "lint": "echo 'Lint script to be added'",
+    "lint:fix": "echo 'Lint fix script to be added'",
+    "format": "echo 'Format script to be added'",
+    "docs:serve": "mkdocs serve",
+    "docs:build": "mkdocs build",
+    "prepare": "echo 'Prepare script to be added (e.g., husky install)'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
