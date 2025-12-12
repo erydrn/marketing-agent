@@ -1,0 +1,93 @@
+site_name: Digital Marketing Agent
+site_description: Intelligent automation system for lead generation and engagement
+site_author: Marketing Agent Team
+repo_url: https://github.com/erydrn/marketing-agent
+repo_name: erydrn/marketing-agent
+
+# Documentation navigation structure
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Quick Start: guides/quickstart.md
+      - Installation: guides/installation.md
+      - Configuration: guides/configuration.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Components: architecture/components.md
+      - Design Patterns: architecture/patterns.md
+  - API Reference:
+      - Authentication: api/authentication.md
+      - Endpoints: api/endpoints.md
+      - Webhooks: api/webhooks.md
+  - User Guides:
+      - Lead Management: guides/lead-management.md
+      - Analytics: guides/analytics.md
+      - Troubleshooting: guides/troubleshooting.md
+  - Development:
+      - Contributing: contributing.md
+      - Testing: testing.md
+      - Deployment: deployment.md
+
+# Theme configuration
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+# Extra configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/erydrn/marketing-agent
+  version:
+    provider: mike
